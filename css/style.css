@@ -1,0 +1,57 @@
+.home{
+    background-image: url(../img/florencia-viadana-xgIaBmsiWI0-unsplash.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+}
+.home .home1{
+    background-color: rgba(0,0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.home1 .home2{
+    text-align: center;
+}
+.home1 .home2 h2::after{
+    content: "|";
+    animation-name: ali;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+}
+.col2{
+    font-size: 30px;
+}
+@keyframes ali{
+0%{    content: "|" ; }
+5%{    content: "L|" ;}
+15%{    content: "LI|" ;}
+25%{    content: "LIB|" ;}
+35%{    content: "LIBR|" ;}
+45%{    content: "LIBRA|" ;}
+50%{    content: "LIBRAR|" ;}
+55%{    content: "LIBRARY|" ;}
+60%{    content: "LIBRAR|" ;}
+65%{    content: "LIBRA|" ;}
+70%{    content: "LIBR|" ;}
+80%{    content: "LI|" ;}
+90%{    content: "L|" ;}
+100%{    content: "|" ;}
+}
+@media  (max-width:1000px) {
+    .col img{
+        width: 300px;
+        padding-top: 8px;
+    }
+    
+}
+.abdo1{
+    list-style: none;
+    text-decoration: none;
+}
+ul li a{
+    text-decoration: none;
+}
